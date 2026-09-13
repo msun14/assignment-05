@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="420" viewBox="0 0 440 420" fill="none">
+  <title>Dev Stack illuminated layers</title>
+  <desc>A replaceable vector illustration of three connected glass circuit boards.</desc>
+  <defs>
+    <linearGradient id="edge" x1="90" y1="60" x2="330" y2="360" gradientUnits="userSpaceOnUse"><stop stop-color="#06dbff"/><stop offset=".42" stop-color="#7342ff"/><stop offset=".7" stop-color="#fa38d9"/><stop offset="1" stop-color="#009dff"/></linearGradient>
+    <linearGradient id="glass" x1="100" y1="80" x2="350" y2="250" gradientUnits="userSpaceOnUse"><stop stop-color="#dbcfff" stop-opacity=".9"/><stop offset=".5" stop-color="#8f79ed" stop-opacity=".65"/><stop offset="1" stop-color="#5446c5" stop-opacity=".9"/></linearGradient>
+    <linearGradient id="chip" x1="-30" y1="-25" x2="30" y2="25"><stop stop-color="#62f4ff"/><stop offset=".5" stop-color="#5970ff"/><stop offset="1" stop-color="#bc45fd"/></linearGradient>
+    <filter id="shadow" x="-30%" y="-60%" width="160%" height="220%"><feGaussianBlur stdDeviation="12"/></filter>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="2" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <g id="plate">
+      <path d="m70 145 150-86 150 86v13l-150 87-150-87Z" fill="#5c39b7" fill-opacity=".5" stroke="url(#edge)" stroke-width="3"/>
+      <path d="m70 145 150-86 150 86-150 87Z" fill="url(#glass)" stroke="url(#edge)" stroke-width="3.5"/>
+      <path d="m80 145 140-80 140 80-140 80Z" stroke="#c9d7ff" stroke-opacity=".8"/>
+      <path d="m75 158 145 84 145-84" stroke="#04dfff" stroke-width="2" filter="url(#glow)"/>
+    </g>
+    <g id="tile">
+      <path d="m-29 0 29-17L29 0v9L0 26-29 9Z" fill="#4236b2" stroke="#44d6ff"/>
+      <path d="M-29 0 0-17 29 0 0 17Z" fill="url(#chip)" stroke="#b1efff"/>
+      <path d="M-19 0 0-11 19 0 0 11Z" fill="#a6b7ff" stroke="#cdefff"/>
+    </g>
+  </defs>
+  <ellipse cx="222" cy="354" rx="139" ry="25" fill="#6446da" opacity=".18" filter="url(#shadow)"/>
+  <use href="#plate" transform="translate(0 111)"/>
+  <g stroke="#32d3ff" stroke-width="2" opacity=".85">
+    <path d="m127 270 30-17 37 22 39-23 59 34m-145 7 49-28m-33 43 39-23 36 21 40-23m-26-61 39 23-36 21"/>
+  </g>
+  <use href="#tile" transform="translate(158 271)"/><use href="#tile" transform="translate(267 277)"/>
+  <use href="#tile" transform="translate(220 307) scale(.7)"/>
+  <g stroke="url(#edge)" stroke-width="7" stroke-linecap="round" filter="url(#glow)">
+    <path d="M92 154v112M348 154v112M220 225v113"/>
+  </g>
+  <use href="#plate" transform="translate(0 53)"/>
+  <g transform="translate(166 204)">
+    <ellipse rx="38" ry="22" fill="#3e2ca1" stroke="#11ceff" stroke-width="3"/>
+    <ellipse rx="26" ry="15" fill="#8aa3ff" stroke="#c2d7ff" stroke-width="4"/>
+    <path d="M0 0 30-17" stroke="#df58ff" stroke-width="9"/>
+  </g>
+  <use href="#tile" transform="translate(266 201) scale(.9)"/>
+  <use href="#tile" transform="translate(221 235) scale(.9)"/>
+  <g stroke="#aff4ff" stroke-width="1.5"><path d="m215 174 17 10m8-15 14 8m35 57 16-9m-177-30-10-6"/></g>
+  <use href="#plate"/>
+  <g stroke="#59e9ff" stroke-width="1.4"><path d="m118 146 32 19 28-16m89-39 37 21-18 11m-76 37 20 12 20-12m-54-59-21 12 24 14"/></g>
+  <g transform="translate(220 112)">
+    <path d="m-43-2 43-25L43-2v12L0 35-43 10Z" fill="#3833ab" stroke="#74eaff" stroke-width="2"/>
+    <path d="m-43-2 43-25L43-2 0 23Z" fill="url(#chip)" stroke="#cbddff" stroke-width="2"/>
+    <text x="0" y="7" text-anchor="middle" fill="white" font-size="24" font-family="Arial,sans-serif" font-weight="700" transform="rotate(-4)">&lt;/&gt;</text>
+  </g>
+  <use href="#tile" transform="translate(209 180) scale(.65)"/>
+  <g fill="#9bedff" stroke="#574bec" stroke-width="1.4">
+    <ellipse cx="282" cy="151" rx="8" ry="5"/><ellipse cx="282" cy="146" rx="8" ry="5"/>
+    <ellipse cx="301" cy="140" rx="6" ry="4"/><ellipse cx="301" cy="135" rx="6" ry="4"/>
+    <ellipse cx="285" cy="126" rx="5" ry="3"/><ellipse cx="318" cy="148" rx="5" ry="3"/>
+  </g>
+  <g fill="#54eeff" filter="url(#glow)"><circle cx="109" cy="143" r="2"/><circle cx="133" cy="156" r="2"/><circle cx="248" cy="181" r="2"/><circle cx="330" cy="148" r="2"/></g>
+</svg>
